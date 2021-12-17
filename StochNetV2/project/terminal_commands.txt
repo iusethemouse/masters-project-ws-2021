@@ -1,0 +1,1 @@
+python simulate_data_gillespy.py --project_folder="C:\Users\Ivan\Documents\StochNetV2\tmp" --timestep=0.5 --dataset_id=1 --nb_settings=100 --nb_trajectories=50 --endtime=20 --model_name="SIR" --params_to_randomize="beta gamma"

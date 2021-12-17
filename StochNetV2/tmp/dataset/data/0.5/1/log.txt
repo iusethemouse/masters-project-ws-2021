@@ -1,0 +1,18 @@
+
+
+Simulating 10 SIR trajectories for 2 different settings with endtime 20.0 took 1.0403237342834473 seconds.
+
+
+Simulating 10 SIR trajectories for 10 different settings with endtime 20.0 took 1.334505558013916 seconds.
+
+
+Simulating 100 SIR trajectories for 2 different settings with endtime 10.0 took 1.336637020111084 seconds.
+
+
+Simulating 1 SIR trajectories for 2 different settings with endtime 10.0 took 1.002640962600708 seconds.
+
+
+Simulating 1 SIR trajectories for 1 different settings with endtime 20.0 took 1.002654790878296 seconds.
+
+
+Simulating 10 SIR trajectories for 2 different settings with endtime 20.0 took 1.033996343612671 seconds.
