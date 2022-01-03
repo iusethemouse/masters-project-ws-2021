@@ -141,7 +141,7 @@ def _perform_simulations(
     settings_fp = os.path.join(dataset_folder, settings_filename)
     settings = np.load(settings_fp)
 
-    crn_module = import_module("X16")
+    crn_module = import_module(model_name)
     crn_class = getattr(crn_module, model_name)
     crn_instance = crn_class(endtime, timestep)
 
@@ -191,13 +191,10 @@ def _single_simulation(
     if params_dict is not None:
         crn_instance.set_parameters(params_dict)
 
-    print('got to simulation run')
     trajectories = crn_instance.run(
         number_of_trajectories=nb_trajectories
         # show_labels=False
     )
-
-    print('simulated')
 
     # import pickle
     # from datetime import datetime
@@ -216,7 +213,8 @@ def _single_simulation(
     # np.save(p_np_arrays, data)
 
     data = trajectories.to_array() # produces a list of nb_trajectories arrays
-    data = np.vstack(data) # stacks the arrays vertically, produces an array of dim (nb_trajectories * steps, nb_species)
+    data = np.stack(data) # stacks the arrays from the above list into a new dimension
+    # data = np.vstack(data) # stacks the arrays vertically, dim: (nb_trajectories * steps, nb_species)
 
     if params_dict is not None:
         vals = np.array(list(params_dict.values()))

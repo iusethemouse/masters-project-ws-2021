@@ -1,0 +1,38 @@
+{
+	"input_placeholder": "input:0",
+	"pred_tensor": "MixtureOutputLayer/concat:0",
+	"pred_placeholder": "MixtureOutputLayer/sample/pred_placeholder:0",
+	"sample_shape_placeholder": "MixtureOutputLayer/sample/sample_shape_placeholder:0",
+	"sample_tensor": "MixtureOutputLayer/sample/MixtureOutputLayer/random_variable/Mixture/sample/Reshape_9:0",
+	"description_graphkeys": {
+		"cat": {
+			"logits": "MixtureOutputLayer/sample/MixtureOutputLayer/random_variable/categorical_predictions:0"
+		},
+		"components": [
+			{
+				"mean": "MixtureOutputLayer/sample/MixtureOutputLayer/random_variable/MultivariateNormalDiagOutputLayer/random_variable/mu:0",
+				"diag": "MixtureOutputLayer/sample/MixtureOutputLayer/random_variable/MultivariateNormalDiagOutputLayer/random_variable/diag:0"
+			},
+			{
+				"mean": "MixtureOutputLayer/sample/MixtureOutputLayer/random_variable/MultivariateNormalDiagOutputLayer_1/random_variable/mu:0",
+				"diag": "MixtureOutputLayer/sample/MixtureOutputLayer/random_variable/MultivariateNormalDiagOutputLayer_1/random_variable/diag:0"
+			},
+			{
+				"mean": "MixtureOutputLayer/sample/MixtureOutputLayer/random_variable/MultivariateNormalDiagOutputLayer_2/random_variable/mu:0",
+				"diag": "MixtureOutputLayer/sample/MixtureOutputLayer/random_variable/MultivariateNormalDiagOutputLayer_2/random_variable/diag:0"
+			},
+			{
+				"mean": "MixtureOutputLayer/sample/MixtureOutputLayer/random_variable/MultivariateNormalDiagOutputLayer_3/random_variable/mu:0",
+				"diag": "MixtureOutputLayer/sample/MixtureOutputLayer/random_variable/MultivariateNormalDiagOutputLayer_3/random_variable/diag:0"
+			},
+			{
+				"mean": "MixtureOutputLayer/sample/MixtureOutputLayer/random_variable/MultivariateNormalDiagOutputLayer_4/random_variable/mu:0",
+				"diag": "MixtureOutputLayer/sample/MixtureOutputLayer/random_variable/MultivariateNormalDiagOutputLayer_4/random_variable/diag:0"
+			},
+			{
+				"mean": "MixtureOutputLayer/sample/MixtureOutputLayer/random_variable/MultivariateNormalDiagOutputLayer_5/random_variable/mu:0",
+				"diag": "MixtureOutputLayer/sample/MixtureOutputLayer/random_variable/MultivariateNormalDiagOutputLayer_5/random_variable/diag:0"
+			}
+		]
+	}
+}
