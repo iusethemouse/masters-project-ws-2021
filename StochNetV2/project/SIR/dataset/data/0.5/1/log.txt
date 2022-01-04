@@ -1,1 +1,0 @@
-Simulating NN 50 SIR, model_id=1 histogram trajectories for 15 different settings until 20(41 steps) took 0.6 seconds.

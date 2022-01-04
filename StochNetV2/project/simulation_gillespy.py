@@ -213,6 +213,7 @@ def _single_simulation(
     # np.save(p_np_arrays, data)
 
     data = trajectories.to_array() # produces a list of nb_trajectories arrays
+    # print(f'\nprinting trajectory: {data[0][0]}')
     data = np.stack(data) # stacks the arrays from the above list into a new dimension
     # data = np.vstack(data) # stacks the arrays vertically, dim: (nb_trajectories * steps, nb_species)
 
