@@ -1,0 +1,10 @@
+Dataset mean self-distance (dist): 0.3360
+Mean histogram distance (dist): 0.2743
+
+Dataset self-distances (dist):
+	S: 0.5656
+	I: 0.1064
+
+Species histogram distances (dist):
+	S: 0.4546
+	I: 0.0940

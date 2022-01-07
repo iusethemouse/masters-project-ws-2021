@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/ivan/Documents/ms-project/masters-project/StochNetV2/project/SIR/models/0.5/101/checkpoints/best_ckpt_15506"
+all_model_checkpoint_paths: "/home/ivan/Documents/ms-project/masters-project/StochNetV2/project/SIR/models/0.5/101/checkpoints/best_ckpt_12705"
+all_model_checkpoint_paths: "/home/ivan/Documents/ms-project/masters-project/StochNetV2/project/SIR/models/0.5/101/checkpoints/best_ckpt_12793"
+all_model_checkpoint_paths: "/home/ivan/Documents/ms-project/masters-project/StochNetV2/project/SIR/models/0.5/101/checkpoints/best_ckpt_13205"
+all_model_checkpoint_paths: "/home/ivan/Documents/ms-project/masters-project/StochNetV2/project/SIR/models/0.5/101/checkpoints/best_ckpt_13799"
+all_model_checkpoint_paths: "/home/ivan/Documents/ms-project/masters-project/StochNetV2/project/SIR/models/0.5/101/checkpoints/best_ckpt_15506"
