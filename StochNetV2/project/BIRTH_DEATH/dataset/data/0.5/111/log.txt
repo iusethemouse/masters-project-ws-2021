@@ -1,0 +1,2 @@
+Simulating NN 100 BIRTH_DEATH, model_id=111 histogram trajectories for 1 different settings until 20(41 steps) took 0.6 seconds.
+Simulating NN 100 BIRTH_DEATH, model_id=111 histogram trajectories for 10 different settings until 20(41 steps) took 1.7 seconds.

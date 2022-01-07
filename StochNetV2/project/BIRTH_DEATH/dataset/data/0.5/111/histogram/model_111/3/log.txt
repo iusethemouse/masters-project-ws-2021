@@ -1,0 +1,26 @@
+Dataset mean self-distance (dist): 0.2772
+Mean histogram distance (dist): 0.9270
+
+Dataset self-distances (dist):
+	S1_alive: 0.5440
+	S1_dead: 0.0000
+	S2_alive: 0.4880
+	S2_dead: 0.0040
+	S3_alive: 0.5600
+	S3_dead: 0.0040
+	S4_alive: 0.5480
+	S4_dead: 0.0000
+	S5_alive: 0.6160
+	S5_dead: 0.0080
+
+Species histogram distances (dist):
+	S1_alive: 1.5860
+	S1_dead: 0.1120
+	S2_alive: 1.7140
+	S2_dead: 0.1640
+	S3_alive: 1.8800
+	S3_dead: 0.1420
+	S4_alive: 1.6400
+	S4_dead: 0.1080
+	S5_alive: 1.7320
+	S5_dead: 0.1920

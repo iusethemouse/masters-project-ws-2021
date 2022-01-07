@@ -11,8 +11,8 @@ class BIRTH_DEATH(base.BaseCRNModel):
     """Class for BIRTH_DEATH network from the DeepCME paper."""
 
     params = {
-        'kappa': '10.',
-        'gamma': '1.',
+        'kappa': 10.,
+        'gamma': 1.
     }
 
     def __init__(self, endtime, timestep):
@@ -35,25 +35,25 @@ class BIRTH_DEATH(base.BaseCRNModel):
         self.add_parameter([kappa, gamma])
 
         # Species
-        S1_start = gillespy.Species(name='S1_start', initial_value=0)
-        S1_alive = gillespy.Species(name='S1_alive', initial_value=0)
-        S1_dead = gillespy.Species(name='S1_dead', initial_value=0)
+        S1_start = gillespy.Species(name='S1_start', initial_value=1)
+        S1_alive = gillespy.Species(name='S1_alive', initial_value=1)
+        S1_dead = gillespy.Species(name='S1_dead', initial_value=1)
 
-        S2_start = gillespy.Species(name='S2_start', initial_value=0)
-        S2_alive = gillespy.Species(name='S2_alive', initial_value=0)
-        S2_dead = gillespy.Species(name='S2_dead', initial_value=0)
+        S2_start = gillespy.Species(name='S2_start', initial_value=1)
+        S2_alive = gillespy.Species(name='S2_alive', initial_value=1)
+        S2_dead = gillespy.Species(name='S2_dead', initial_value=1)
 
-        S3_start = gillespy.Species(name='S3_start', initial_value=0)
-        S3_alive = gillespy.Species(name='S3_alive', initial_value=0)
-        S3_dead = gillespy.Species(name='S3_dead', initial_value=0)
+        S3_start = gillespy.Species(name='S3_start', initial_value=1)
+        S3_alive = gillespy.Species(name='S3_alive', initial_value=1)
+        S3_dead = gillespy.Species(name='S3_dead', initial_value=1)
 
-        S4_start = gillespy.Species(name='S4_start', initial_value=0)
-        S4_alive = gillespy.Species(name='S4_alive', initial_value=0)
-        S4_dead = gillespy.Species(name='S4_dead', initial_value=0)
+        S4_start = gillespy.Species(name='S4_start', initial_value=1)
+        S4_alive = gillespy.Species(name='S4_alive', initial_value=1)
+        S4_dead = gillespy.Species(name='S4_dead', initial_value=1)
 
-        S5_start = gillespy.Species(name='S5_start', initial_value=0)
-        S5_alive = gillespy.Species(name='S5_alive', initial_value=0)
-        S5_dead = gillespy.Species(name='S5_dead', initial_value=0)
+        S5_start = gillespy.Species(name='S5_start', initial_value=1)
+        S5_alive = gillespy.Species(name='S5_alive', initial_value=1)
+        S5_dead = gillespy.Species(name='S5_dead', initial_value=1)
         self.add_species([
                 S1_start, S1_alive, S1_dead,
                 S2_start, S2_alive, S2_dead,
@@ -230,6 +230,7 @@ class BIRTH_DEATH(base.BaseCRNModel):
 
         # settings = np.random.randint(low=30, high=200, size=(n_settings, n_species))
         # settings = np.zeros()
+        settings = np.reshape(settings, (n_settings, n_species))
         return settings
 
     @classmethod

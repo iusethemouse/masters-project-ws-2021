@@ -186,6 +186,7 @@ def _single_simulation(
         prefix,
 ):
     """Helper single-thread function."""
+    print(initial_values)
     crn_instance.set_species_initial_value(initial_values)
 
     if params_dict is not None:
