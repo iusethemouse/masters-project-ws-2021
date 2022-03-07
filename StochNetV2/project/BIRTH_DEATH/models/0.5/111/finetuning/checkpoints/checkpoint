@@ -1,6 +1,0 @@
-model_checkpoint_path: "/home/ivan/Documents/ms-project/masters-project/StochNetV2/project/BIRTH_DEATH/models/0.5/111/finetuning/checkpoints/best_ckpt_1640"
-all_model_checkpoint_paths: "/home/ivan/Documents/ms-project/masters-project/StochNetV2/project/BIRTH_DEATH/models/0.5/111/finetuning/checkpoints/best_ckpt_940"
-all_model_checkpoint_paths: "/home/ivan/Documents/ms-project/masters-project/StochNetV2/project/BIRTH_DEATH/models/0.5/111/finetuning/checkpoints/best_ckpt_998"
-all_model_checkpoint_paths: "/home/ivan/Documents/ms-project/masters-project/StochNetV2/project/BIRTH_DEATH/models/0.5/111/finetuning/checkpoints/best_ckpt_1220"
-all_model_checkpoint_paths: "/home/ivan/Documents/ms-project/masters-project/StochNetV2/project/BIRTH_DEATH/models/0.5/111/finetuning/checkpoints/best_ckpt_1359"
-all_model_checkpoint_paths: "/home/ivan/Documents/ms-project/masters-project/StochNetV2/project/BIRTH_DEATH/models/0.5/111/finetuning/checkpoints/best_ckpt_1640"
