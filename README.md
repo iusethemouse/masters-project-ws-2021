@@ -12,6 +12,7 @@ In this repository, you can find the following Jupyter Notebooks and additional 
 - `2-moment-estimation.ipynb`: the pipeline to estimate the first and second moments for a given CRN using a trained StochNetV2 neural network.
 - `3-parameter-sensitivity-estimation.ipynb`: the pipeline to estimate the parameter sensitivities of the first and second moment estimations for a given CRN using a trained StochNetV2 neural network.
 - `crn-definitions`: a folder containing the definitions of example CRNs using the `Gillespy` framework.
+- `modified-stochnetv2`: a folder containing certain files from the StochNetV2 library installation that have been modified for this project.
 - `summary.pdf`: a set of slides outlining the findings and conclusions of the project.
 
 ## References
