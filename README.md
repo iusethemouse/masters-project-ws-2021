@@ -17,4 +17,5 @@ In this repository, you can find the following Jupyter Notebooks and additional 
 
 ## References
 [1] StochNetV2: A Tool for Automated Deep Abstractions for Stochastic Reaction Networks, Denis Repin, Nhat-Huy Phung, Tatjana Petrov, QEST 2020
+
 [2] DeepCME: A deep learning framework for computing solution statistics of the chemical master equation by Ankit Gupta, Christoph Schwab and Mustafa Khammash, PLoS Computational Biology 2021
